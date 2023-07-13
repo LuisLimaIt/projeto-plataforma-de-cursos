@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/" href="assets/favicon.jpg" />
     <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>TechLearn</title>
+    
 </head>
 
 <body>
@@ -24,15 +26,35 @@
             </div>
 
         </section>
+
+        <section class="video-section">
+            <iframe class="video" width="816" height="493" src="https://www.youtube.com/embed/kC_gdsnlKaE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <div class="video-text-box">
+                <p class="video-text">
+                    Descubra um mundo de conhecimento e crescimento pessoal com nossa plataforma de cursos online.
+                    Aproveite a flexibilidade de aprendizado, a variedade de disciplinas e a atualização constante de
+                    conteúdo, enquanto
+                    desenvolve habilidades relevantes para o
+                    mercado de trabalho. Aprenda de forma interativa, no seu próprio ritmo e por um preço acessível.
+                    Transforme seu
+                    potencial em conquistas reais hoje mesmo!
+                </p>
+            </div>
+
+
+
+        </section>
     </main>
 </body>
 
 </html>
 
 <style>
-    .main {
-        background: #151819;
-    }
+    .main {}
 
     .container {
         max-width: 1920px;
@@ -59,7 +81,7 @@
     .title {
         color: #FFF;
         font-size: 96px;
-        font-family: Montserrat;
+        font-family: Inter;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -69,10 +91,44 @@
     .subtitle {
         color: #FFF;
         font-size: 36px;
-        font-family: Montserrat;
+        font-family: Inter;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         max-width: 640px;
     }
+
+
+    .video-section {
+        max-width: 1920px;
+        margin: 0 auto;
+        background-color: #1D1F21;
+        display: flex;
+        gap: 48px;
+        align-items: center;
+        justify-content: center;
+        padding: 148px 0;
+
+    }
+
+    .video {
+        border: 8px solid #ED145B;
+        border-radius: 24px;
+    }
+
+    .video-text-box {
+        width: 908px;
+    }
+
+    .video-text {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+
 </style>

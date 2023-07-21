@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>TechLearn</title>
-    
+
 </head>
 
 <body>
@@ -44,10 +44,28 @@
                     potencial em conquistas reais hoje mesmo!
                 </p>
             </div>
+        </section>
+        <section class="card-section">
 
+            <div class="card-box blue" >
+                <img class="card-image" src="assets/frontend.webp"
+                    alt="Mulher negra programadora olhando para o computador">
+                <p class="card-text blue-text">
+                    CARREIRA FRONT-END
+                </p>
+            </div>
 
+            <div class="card-box violet">
+                <img class="card-image" src="assets/backend.webp"
+                    alt="Mulher asiática programadora olhando para o computador">
+                <p class="card-text violet-text">
+                    CARREIRA BACK-END
+                </p>
+            </div>
 
         </section>
+
+
     </main>
 </body>
 
@@ -130,5 +148,58 @@
 
     }
 
+    /* CardSection*/
 
+    .card-section {
+        max-width: 1920px;
+        margin: 0 auto;
+        background-color: #1D1F21;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .card-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        background-color: #D2D2D3;
+        border-radius: 24px;
+        
+    }
+
+    .blue {
+        border-top: 5px solid #1258AA;
+        border-right: 31px solid #1258AA;
+        border-bottom: 5px solid #1258AA;
+        border-left: 5px solid #1258AA;
+    }
+
+    .violet {
+        border-top: 5px solid #8527CF;
+        border-right: 31px solid #8527CF;
+        border-bottom: 5px solid #8527CF;
+        border-left: 5px solid #8527CF;
+    }
+
+    .card-image {
+        max-width: 508px;
+        border-radius: 24px 0 0 24px;
+    }
+
+    .card-text {
+        font-family: Inter;
+        font-size: 45px;
+        font-weight: 700;
+        max-width: 288px;
+    }
+
+    .blue-text {
+        color: #0E4688;
+    }
+
+    .violet-text {
+        color: #8527CF;
+    }
 </style>

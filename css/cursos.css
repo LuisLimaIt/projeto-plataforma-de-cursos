@@ -1,0 +1,124 @@
+body {
+    background: #151819;
+}
+
+/* Menu*/
+
+.caixa {
+    background: #151819;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+
+
+.menu-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #9b3271;
+}
+
+.divider {
+    width: 1705px;
+    height: 1px;
+    background: #D9D9D9;
+    flex-shrink: 0;
+    /* display: block; */
+    margin: 0 auto;
+}
+
+/* MainHeroSection*/ 
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.main-hero {
+    background: #151819;
+    height: 665px;
+    padding-top: 108px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box {
+    padding-left: 104px;
+    max-width: 55%;
+}
+
+.title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 80px;
+}
+
+.subtitle {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.image-box {
+    padding-right: 104px;
+}
+
+
+/* Footer*/
+
+.page-footer { 
+    background-color: #9b327180;
+}
+
+.content-footer { 
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: Inter;
+    font-size: 32px ;
+    color: #FFF;
+
+}
+
+.fa-brands {
+    color: #FFF; 
+    font-size: 48px;
+    margin: 0px 8px;
+}
+
+.fa-brands:hover {
+    color: #9b327180;
+
+
+}

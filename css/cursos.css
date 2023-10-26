@@ -93,6 +93,9 @@ body {
 
 .page-footer { 
     background-color: #9b327180;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .content-footer { 

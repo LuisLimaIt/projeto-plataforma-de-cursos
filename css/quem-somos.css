@@ -1,0 +1,206 @@
+body {
+    background: #151819;
+}
+
+/* Menu*/
+
+.caixa {
+    background: #151819;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+
+
+.menu-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #9b3271;
+}
+
+.divider {
+    width: 1705px;
+    height: 1px;
+    background: #D9D9D9;
+    flex-shrink: 0;
+    /* display: block; */
+    margin: 0 auto;
+}
+
+/* MainSection*/
+
+.main-section-quem-somos {
+    padding: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    
+}
+
+.content-box {
+    max-width: 521px;
+}
+
+.main-section-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.tittle-span {
+    color: #ED145B;
+}
+
+.main-section-subtitle {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-section-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    max-width: 984px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* CareerProfessionalsSection*/
+
+.career-professionals-section {
+    padding: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    background-color: rgba(69, 70, 70, 0.8);
+}
+
+.people-working-img {
+    max-width: 1018px;
+    max-height: 618;
+}
+
+.professional-section-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    max-width: 984px;
+    
+}
+
+.professional-section-details {
+    display: flex;
+}
+
+.section-number {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 48px;
+    
+}
+
+.section-number-detail {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-number-2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 48px;
+}
+
+.section-number-detail-2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Footer*/
+
+.page-footer {
+    background-color: #9b327180;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.content-footer {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: Inter;
+    font-size: 32px;
+    color: #FFF;
+
+}
+
+.fa-brands {
+    color: #FFF;
+    font-size: 48px;
+    margin: 0px 8px;
+}
+
+.fa-brands:hover {
+    color: #9b327180;
+
+
+}
+

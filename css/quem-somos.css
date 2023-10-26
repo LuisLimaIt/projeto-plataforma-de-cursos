@@ -54,7 +54,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 120px;
-
     
 }
 
@@ -98,11 +97,81 @@ strong {
     font-weight: 700;
 }
 
+/* CareerProfessionalsSection*/
+
+.career-professionals-section {
+    padding: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    background-color: rgba(69, 70, 70, 0.8);
+}
+
+.people-working-img {
+    max-width: 1018px;
+    max-height: 618;
+}
+
+.professional-section-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    max-width: 984px;
+    
+}
+
+.professional-section-details {
+    display: flex;
+}
+
+.section-number {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 48px;
+    
+}
+
+.section-number-detail {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-number-2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 48px;
+}
+
+.section-number-detail-2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
 /* Footer*/
 
 .page-footer {
     background-color: #9b327180;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }

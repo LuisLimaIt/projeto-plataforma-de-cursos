@@ -110,7 +110,7 @@ strong {
 
 .people-working-img {
     max-width: 1018px;
-    max-height: 618;
+    max-height: 618px;
 }
 
 .professional-section-text {
@@ -166,6 +166,59 @@ strong {
     line-height: normal;
 }
 
+/* MethodologySection */
+
+.methods-section-text {
+    color:#FFF;
+    font-family: Inter; 
+    font-size: 28px;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    padding-top: 136px;
+    padding-bottom: 136px ;
+}
+
+/* AboutUsSection */   
+
+.about-us-img {
+    max-width: 746px;
+    height: auto;
+    width: auto;
+}
+
+.about-us-section {
+    background-color: rgba(69, 70, 70, 0.8);    
+}
+
+.about-us-content-box {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 108px;
+    gap: 96px;
+}
+
+.about-us-title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.about-us-section-text {
+    color:#FFF;
+    font-size: 24px;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+    max-width: 906px;
+
+} 
+
 
 /* Footer*/
 
@@ -200,7 +253,5 @@ strong {
 
 .fa-brands:hover {
     color: #9b327180;
-
-
 }
 
